@@ -15,3 +15,12 @@ body{
     background-color: #ff0;
     padding: 6px;
 }
+.vote{
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.vote p{
+    padding-left: 10px;
+}
