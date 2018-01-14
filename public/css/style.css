@@ -34,6 +34,10 @@ body{
     background-color: #fff;
     margin: 5px;
 }
+.card span{
+    display: block;
+    margin-bottom: 10px;
+}
 
 /* bootstrap progress bars */
 
