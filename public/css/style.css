@@ -1,3 +1,5 @@
+/* add media query @580px */
+
 body{
     background-color: #f7f7f7;
     color: #333;
@@ -15,6 +17,19 @@ body{
 .middle {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.middle:hover{
+    background-color: #f0ad4e;
+    color: #fff;
+}
+.leave:hover{
+    background-color: #5cb85c;
+    color: #fff;
+}
+.remain:hover{
+    background-color: #d9534f;
+    color: #fff;
 }
 .vote{
     cursor: pointer;
@@ -23,7 +38,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 600px;
+    width: 600px;
+    max-width: 90%;
     margin: auto;
 }
 .card{
@@ -99,9 +115,9 @@ body{
   background-color: #5cb85c;
 }
 
-.progress-bar-info {
+/* .progress-bar-info {
   background-color: #5bc0de;
-}
+} */
 
 .progress-bar-warning {
   background-color: #f0ad4e;

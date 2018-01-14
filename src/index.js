@@ -30,20 +30,22 @@ class App extends React.Component {
                 <h4>Select your choice below</h4>
             </div>
 
+
             <div className="block">
-                <div className="card vote">
-                <p onClick={this.handleVoteLeave}>Vote Leave</p>
+                <div className="card vote leave" onClick={this.handleVoteLeave}>
+                    <p>Vote Leave</p>
                 </div>
                 
-                <div className="card vote">
-                <p onClick={this.handleVoteRemain}>Vote Remain</p>
+                <div className="card vote remain" onClick={this.handleVoteRemain}>
+                    <p>Vote Remain</p>
                 </div>
 
-                <div className="card vote middle">
-                <p onClick={this.handleVoteUndecided}>Undecided</p>
+                <div className="card vote middle" onClick={this.handleVoteUndecided}>
+                    <p>Undecided</p>
                 </div>
             </div>
-           
+
+
             </div>
 
         )
